@@ -69,3 +69,8 @@ body {
   border-radius: 50px;
   border: 0;
 }
+
+.cashier-navbar {
+  padding: 30px;
+  background: var(--white);
+}
