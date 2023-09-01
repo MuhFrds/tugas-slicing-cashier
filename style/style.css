@@ -70,7 +70,15 @@ body {
   border: 0;
 }
 
+.navbar-brand {
+  font-weight: var(--fwbold);
+  font-size: 28px;
+  color: var(--navy);
+}
+
 .cashier-navbar {
   padding: 30px;
   background: var(--white);
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
 }
