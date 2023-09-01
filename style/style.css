@@ -19,6 +19,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background: var(--bluesoft);
 }
 
 .big-header {
@@ -60,6 +61,11 @@ body {
   border: 0;
 }
 
+.btn-primary:hover {
+  background: var(--navy);
+  color: var(--white);
+}
+
 .btn-secondary {
   padding: 12px 20px 12px 20px;
   background: var(--grey);
@@ -69,11 +75,35 @@ body {
   border-radius: 50px;
   border: 0;
 }
+.btn-secondary:hover {
+  background: var(--navy);
+  color: var(--white) !important;
+}
 
+.navbar-nav .nav-item a:hover {
+  color: var(--blue);
+  transition: all 0.3s ease;
+  font-weight: var(--fwsemibold);
+}
+
+.navbar-nav .nav-item a {
+  color: var(--navy);
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 25px;
+  padding-left: 25px;
+  font-weight: var(--fwregular);
+}
 .navbar-brand {
   font-weight: var(--fwbold);
   font-size: 28px;
   color: var(--navy);
+}
+
+.navbar {
+  --bs-navbar-padding-y: 0;
 }
 
 .cashier-navbar {
