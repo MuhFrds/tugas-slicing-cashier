@@ -20,3 +20,52 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 40px;
+  margin: 0;
+}
+
+.medium-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 22px;
+  margin: 0;
+}
+
+.small-header {
+  font-weight: var(--fwbold);
+  color: var(--navy);
+  font-size: 22px;
+  margin: 0;
+}
+
+.primary-copy {
+  font-size: 16px;
+  font-weight: var(--fwregular);
+  line-height: 28px;
+  color: var(--darkgrey);
+  margin: 0;
+}
+
+.btn-primary {
+  padding: 12px 20px 12px 20px;
+  background: var(--blue);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: var(--fwsemibold);
+  border-radius: 50px;
+  border: 0;
+}
+
+.btn-secondary {
+  padding: 12px 20px 12px 20px;
+  background: var(--grey);
+  color: var(--navy);
+  font-size: 16px;
+  font-weight: var(--fwmedium);
+  border-radius: 50px;
+  border: 0;
+}
