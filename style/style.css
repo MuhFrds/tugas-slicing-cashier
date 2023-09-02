@@ -112,3 +112,34 @@ body {
   border-bottom-left-radius: 26px;
   border-bottom-right-radius: 26px;
 }
+
+.small-copy {
+  font-size: 14px;
+  color: var(--navy);
+  font-weight: var(--fwsemibold);
+}
+
+.badge {
+  padding: 8px 16px 8px 16px;
+  background: var(--purplesoft);
+  border-radius: 50px;
+  width: 300px;
+}
+
+.badge .icon {
+  float: left;
+  margin-right: 6px;
+}
+
+.badge .small-copy {
+  padding-top: 4px;
+  margin: 0;
+}
+
+.big-header {
+  font-weight: var(--fwextrabold);
+  color: var(--navy);
+  font-size: 48px;
+  line-height: 60px;
+  margin: 0;
+}
