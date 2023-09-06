@@ -160,6 +160,10 @@ body {
   margin-right: 10px;
 }
 
+.mr-30 {
+  margin-right: 10px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -188,4 +192,22 @@ body {
 .carousel-wrapper {
   display: flex;
   height: 110px;
+  animation: moveSlidesToleft 10s linear infinite;
+}
+
+.carousel {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  height: 110px;
+  overflow: hidden;
+}
+
+@keyframes moveSlidesToleft {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
 }
