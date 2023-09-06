@@ -51,6 +51,24 @@ body {
   margin: 0;
 }
 
+.features .features-wrapper .big-feature-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--white);
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+
+.text-button {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+.text-button:hover {
+  text-decoration: underline;
+  color: var(--navy);
+}
+
 .btn-primary {
   padding: 12px 20px 12px 20px;
   background: var(--blue);
