@@ -51,6 +51,16 @@ body {
   margin: 0;
 }
 
+.features-wrapper:hover .big-feature-card:not(:hover) {
+  filter: blur(4px);
+  transition: all 0.3 ease;
+}
+
+.features-wrapper:hover .small-feature-card:not(:hover) {
+  filter: blur(4px);
+  transition: all 0.3 ease;
+}
+
 .features .features-wrapper .small-feature-card {
   padding: 30px;
   border-radius: 16px;
