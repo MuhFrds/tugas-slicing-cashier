@@ -51,6 +51,22 @@ body {
   margin: 0;
 }
 
+.features .features-wrapper .small-feature-card {
+  padding: 30px;
+  border-radius: 16px;
+  background: var(--white);
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+.features .features-wrapper h3 {
+  padding-top: 16px;
+}
+
+.features .features-wrapper .small-feature-card .icon {
+  height: 100px;
+}
+
 .features .features-wrapper .big-feature-card {
   padding: 30px;
   border-radius: 16px;
