@@ -192,7 +192,7 @@ body {
 .carousel-wrapper {
   display: flex;
   height: 110px;
-  animation: moveSlidesToleft 10s linear infinite;
+  animation: moveSlidesToleft 25s linear infinite;
 }
 
 .carousel {
@@ -224,7 +224,7 @@ body {
 .carousel-wrapper-left {
   display: flex;
   height: 110px;
-  animation: moveSlidesToRight 10s linear infinite;
+  animation: moveSlidesToRight 25s linear infinite;
 }
 
 .carousel-left {
