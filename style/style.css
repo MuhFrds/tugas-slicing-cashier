@@ -152,6 +152,14 @@ body {
   margin: 0;
 }
 
+.mt-70 {
+  margin-top: 70px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -162,4 +170,22 @@ body {
 
 .mb-30 {
   margin-bottom: 30px;
+}
+
+.card-brand {
+  width: 227px;
+  height: 110px;
+  border-radius: 16px;
+  background: var(--darkgrey2);
+  text-align: center;
+}
+
+.card-brand .logo {
+  height: 50px;
+  margin-top: 30px;
+}
+
+.carousel-wrapper {
+  display: flex;
+  height: 110px;
 }
