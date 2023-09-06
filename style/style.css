@@ -58,6 +58,10 @@ body {
   padding: 12px 20px 12px 20px;
 }
 
+textarea.form-control {
+  border-radius: 16px;
+}
+
 .form-select {
   border-radius: 50px;
   border: 0;
