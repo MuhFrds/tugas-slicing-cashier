@@ -59,6 +59,18 @@ body {
   cursor: pointer;
 }
 
+.features .features-wrapper .icon {
+  float: left;
+  width: 60px;
+  height: 200px;
+  margin-right: 18px;
+}
+
+.features .features-wrapper .icon img {
+  width: 60px;
+  height: 60px;
+}
+
 .text-button {
   text-decoration: none;
   color: var(--blue);
