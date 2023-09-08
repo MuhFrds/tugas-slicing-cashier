@@ -191,6 +191,10 @@ textarea.form-control {
   border-bottom-right-radius: 26px;
 }
 
+.cashier-navbar img {
+  height: 30px;
+}
+
 .small-copy {
   font-size: 14px;
   color: var(--navy);
